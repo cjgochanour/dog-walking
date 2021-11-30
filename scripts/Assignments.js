@@ -19,8 +19,7 @@ const findWalker = (pet, allWalkers) => {
 };
 
 export const Assignments = () => {
-    let assignmentHTML = "";
-    assignmentHTML = "<ul>";
+    let assignmentHTML = "<ul>";
 
     for (const currentPet of pets) {
         const currentPetWalker = findWalker(currentPet, walkers);
